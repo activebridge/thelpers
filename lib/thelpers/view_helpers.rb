@@ -1,4 +1,4 @@
-module SimpleHelpers
+module Thelpers
   module ViewHelpers
 
     def link_to(name = nil, options = nil, html_options = nil, &block)

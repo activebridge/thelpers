@@ -4,7 +4,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'simple_helpers'
+    gem 'thelpers'
 
 And then execute:
 
@@ -12,20 +12,20 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install simple_helpers
+    $ gem install thelpers
 
 ## Usage
 
 This gem helps you to have nice and localized rails helpers
 
-Without `simple_helpers`:
+Without `thelpers`:
 
 ```ruby
   link_to t('.title'), path
   button_to t('title'), path
 ```
 
-With `simple_helpers`:
+With `thelpers`:
 
 ```ruby
   link_to :title, path

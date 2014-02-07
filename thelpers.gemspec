@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'simple_helpers/version'
+require 'thelpers/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'simple_helpers'
-  spec.version       = SimpleHelpers::VERSION
+  spec.name          = 'thelpers'
+  spec.version       = Thelpers::VERSION
   spec.authors       = ['galulex']
   spec.email         = ['galulex@gmail.com']
   spec.summary       = 'Adds localization to default Rails helpers'
