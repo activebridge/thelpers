@@ -1,4 +1,4 @@
-# SimpleHelpers
+# Thelpers
 
 ## Installation
 
